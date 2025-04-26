@@ -8,7 +8,12 @@ const Dashboard: React.FC = () => {
         <div>
             <nav className="navbar navbar-light bg-light">
             <div className="container-fluid">
-                <h3>Catálogo de Recetas</h3>
+                <div className="col-12 p-3">
+                    <div className="d-flex justify-content-between">
+                        <h3>Catálogo de Recetas</h3>
+                        <h5>PASTA LAB</h5>
+                    </div>
+                </div>
             </div>
         </nav>
             <main className='container'>
@@ -17,7 +22,6 @@ const Dashboard: React.FC = () => {
             <footer className="col-12 bg-white">
                 <div className='card card-body shadow-none'>
                     <h3 className="text-center">Yohalmo Alexander Vasquez Garcia - VG20I04001</h3>
-                    <h5 className="text-center">PASTA LAB</h5>
                 </div>
             </footer>
         </div>
